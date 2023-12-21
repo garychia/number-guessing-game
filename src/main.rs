@@ -25,7 +25,7 @@ fn main() {
                 println!("You won!");
                 break;
             }
-            Ordering::Greater => println!("Too big."),
+            Ordering::Greater => println!("Too large."),
             Ordering::Less => println!("Too small."),
         }
         println!("------------------------");
